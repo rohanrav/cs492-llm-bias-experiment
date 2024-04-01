@@ -16,13 +16,35 @@ openai_client = OpenAI(
 )
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
+gemini_generation_config = {
+    "temperature": 0.5,
+    "top_p": 1,
+    "top_k": 1,
+    "max_output_tokens": 2048,
+}
+
+gemini_safety_settings = [
+    {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "threshold": "BLOCK_NONE"
+    },
+    {
+        "category": "HARM_CATEGORY_HATE_SPEECH",
+        "threshold": "BLOCK_NONE"
+    },
+    {
+        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+        "threshold": "BLOCK_NONE"
+    },
+    {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_NONE"
+    },
+]
+
 gemini_model = genai.GenerativeModel(model_name="gemini-1.0-pro",
-                                     generation_config={
-                                         "temperature": 0.5,
-                                         "top_p": 1,
-                                         "top_k": 1,
-                                         "max_output_tokens": 2048,
-                                     })
+                                     generation_config=gemini_generation_config,
+                                     safety_settings=gemini_safety_settings)
 
 llama2_client = Client("huggingface-projects/llama-2-7b-chat")
 llama2_uncensored_client = Client(
@@ -68,8 +90,6 @@ async def get_responses(prompt):
 
     return responses
 
-# Function to get GPT response
-
 
 async def get_gpt_response(prompt):
     print("Making GPT request...")
@@ -87,8 +107,6 @@ async def get_gpt_response(prompt):
 
     return gpt_response.choices[0].message.content
 
-# Function to get Gemini Pro response
-
 
 async def get_gemini_pro_response(prompt):
     print("Making Gemini Pro request...")
@@ -96,8 +114,6 @@ async def get_gemini_pro_response(prompt):
     gemini_response = gemini_chat.send_message(prompt)
 
     return gemini_response.text
-
-# Function to get LLama2 7B response
 
 
 async def get_llama2_7b_response(prompt):
@@ -115,12 +131,9 @@ async def get_llama2_7b_response(prompt):
 
     return llama2_response
 
-# Function to get LLama2 7B Uncensored response
-
 
 async def get_llama2_7b_uncensored_response(prompt):
     print("Making LLama2 7B Uncensored request...")
-
     llama2_uncensored_response = llama2_uncensored_client.predict(
         prompt,
         api_name="/api"
@@ -154,5 +167,4 @@ async def main():
     with open("prompts_with_responses.json", "w") as f:
         json.dump(prompts, f, indent=2)
 
-# Run the main function
 asyncio.run(main())
