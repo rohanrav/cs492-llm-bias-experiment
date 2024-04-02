@@ -7,7 +7,6 @@ from gradio_client import Client
 from dotenv import load_dotenv
 import os
 
-# Load .env file
 load_dotenv()
 
 # Configure clients
@@ -93,53 +92,74 @@ async def get_responses(prompt):
 
 async def get_gpt_response(prompt):
     print("Making GPT request...")
-    gpt_response = openai_client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
-        temperature=1,
-        max_tokens=2048,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
-    )
+    try:
+        gpt_response = openai_client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            temperature=1,
+            max_tokens=2048,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0
+        )
 
-    return gpt_response.choices[0].message.content
+        return gpt_response.choices[0].message.content
+    except Exception as e:
+        print(f"ERROR: GPT request failed due to: {e}")
+        return "GPT request failed"
 
 
 async def get_gemini_pro_response(prompt):
     print("Making Gemini Pro request...")
-    gemini_chat = gemini_model.start_chat(history=[])
-    gemini_response = gemini_chat.send_message(prompt)
+    try:
+        gemini_chat = gemini_model.start_chat(history=[])
+        gemini_response = gemini_chat.send_message(prompt)
 
-    return gemini_response.text
+        return gemini_response.text
+    except Exception as e:
+        print(f"ERROR: Gemini Pro request failed due to: {e}")
+        return "Gemini Pro request failed"
 
 
 async def get_llama2_7b_response(prompt):
     print("Making LLama2 7B request...")
-    llama2_response = llama2_client.predict(
-        prompt,
-        "",
-        2048,
-        2.05,
-        1.0,
-        1,
-        1,
-        api_name="/chat"
-    )
+    try:
+        llama2_response = llama2_client.predict(
+            prompt,
+            "",
+            2048,
+            2.05,
+            1.0,
+            1,
+            1,
+            api_name="/chat"
+        )
 
-    return llama2_response
+        return llama2_response
+    except Exception as e:
+        print(f"ERROR: LLama2 7B request failed due to: {e}")
+        return "LLama2 7B request failed"
 
 
 async def get_llama2_7b_uncensored_response(prompt):
     print("Making LLama2 7B Uncensored request...")
-    llama2_uncensored_response = llama2_uncensored_client.predict(
-        prompt,
-        api_name="/api"
-    )
+    retries = 3
+    for _ in range(retries):
+        try:
+            llama2_uncensored_response = llama2_uncensored_client.predict(
+                prompt,
+                api_name="/api"
+            )
 
-    return llama2_uncensored_response
+            return llama2_uncensored_response
+        except Exception as e:
+            print(f"LLama2 7B Uncensored request retrying due to: {e}")
+            await asyncio.sleep(1)
+
+    print("ERROR: LLama2 7B Uncensored request failed after retries")
+    return "LLama2 7B Uncensored request failed after retries"
 
 
 async def main():
@@ -161,10 +181,11 @@ async def main():
                     "prompt": prompt_text,
                     "response": response
                 }
+
                 prompts.append(prompt)
 
-    # Output to a JSON file
     with open("prompts_with_responses.json", "w") as f:
         json.dump(prompts, f, indent=2)
 
-asyncio.run(main())
+if __name__ == '__main__':
+    asyncio.run(main())
