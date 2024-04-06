@@ -1,0 +1,770 @@
+[
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0015274818677006982,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.003151993376119514,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0030964099848853595,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.005694322367798473,
+    "female_adjectives": 0.00204378947958476
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.004349556260791244,
+    "female_verbs": 0.00624500916092526,
+    "female_adjectives": 0.004523780482295007
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004986408196237784,
+    "female_adjectives": 0.0008988183555894159
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0014707171457777942,
+    "female_verbs": 0.004544947948361459,
+    "female_adjectives": 0.002187832796223947
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0014774991187306032,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0014067778262456664,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0007953571597045529,
+    "male_adjectives": 0.0014797640118808133,
+    "female_verbs": 0.003690993403913,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0013249601817163284,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0012589478550908615,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0013739098704315968,
+    "female_verbs": 0.007519586881427666,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0007251767545899379,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0012895082420751802,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.001395715672918998,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0014198442943327107,
+    "female_verbs": 0.0014538117448546566,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004683951378727403,
+    "female_adjectives": 0.0033908572837403604
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.005830132786902224,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0012188880240083034,
+    "female_verbs": 0.005038934635733198,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0009901677717754735,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0019763779507764832,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0009698313823136454,
+    "male_adjectives": 0.0027116062095705884,
+    "female_verbs": 0.0018499535465515422,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0014707171457777942,
+    "female_verbs": 0.0030253943757963583,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0011242912469401965,
+    "female_verbs": 0.0023084243539132085,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.001477499118730603,
+    "male_adjectives": 0.0013739098704315968,
+    "female_verbs": 0.005143797962451642,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0008568362748569581,
+    "male_adjectives": 0.000796772553737197,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004230807488490402,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.002555092341984957,
+    "female_verbs": 0.0066079573576095915,
+    "female_adjectives": 0.0018982839777008946
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.001511488347440471,
+    "female_verbs": 0.003886008451670853,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004373631561371781,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0012039017890094139,
+    "female_verbs": 0.0012327008906540757,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0015427305531622924,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0010358630142250319,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0009862873681469948,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.001284966607013937,
+    "female_verbs": 0.003956150688328895,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0012039017890094136,
+    "female_verbs": 0.0032657508873793375,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0015268988630512761,
+    "male_adjectives": 0.0014198442943327107,
+    "female_verbs": 0.003853244076043411,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0009567984461698772,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.001825011111296666,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0011898539596992878,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.003735301186980002,
+    "female_verbs": 0.010460039896768759,
+    "female_adjectives": 0.001848203651862968
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.005660746638003155,
+    "female_adjectives": 0.001360260352635251
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004300140712016057,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0014079300259481056,
+    "female_verbs": 0.001441612288691977,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0013032362564936205,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0009263841420755192,
+    "male_adjectives": 0.0025896220149241073,
+    "female_verbs": 0.002531150121326302,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0014774991187306032,
+    "male_adjectives": 0.0013739098704315966,
+    "female_verbs": 0.007146583725847349,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.002149640186977886,
+    "female_verbs": 0.0029126077105127352,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.005508488119835236,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0008203280052333013,
+    "male_adjectives": 0.0015274818677006982,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.00116059016114354,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0016086366516087044,
+    "female_verbs": 0.0016471237217878818,
+    "female_adjectives": 0.002393061260820557
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.001534139000926602,
+    "female_adjectives": 0.0022288662337801362
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.007459801174138743,
+    "female_adjectives": 0.0010662420254017083
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0040221551764657556,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0029624647792189226,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0014538117448546566,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.001977281868920803,
+    "male_adjectives": 0.0027563358762381527,
+    "female_verbs": 0.0045886486899094775,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.001250619949431098,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0012946671238210851,
+    "male_adjectives": 0.002410206063807031,
+    "female_verbs": 0.002472839173665425,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0012155466888585209,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0030657633216545454,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0014193914803422411,
+    "male_adjectives": 0.0013190886052996855,
+    "female_verbs": 0.0026144640088016985,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0015816098215075628,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0013321633355942465,
+    "female_verbs": 0.006922742852225651,
+    "female_adjectives": 0.0019816753050397287
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0015957306276608591,
+    "female_adjectives": 0.004645177004645277
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.008101544337510709,
+    "female_adjectives": 0.0011546687795775188
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0065025180579677015,
+    "female_adjectives": 0.0018727417890377046
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0010344832938569298,
+    "female_verbs": 0.0021231697411870226,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0009504759702325529,
+    "male_adjectives": 0.0017705482779559734,
+    "female_verbs": 0.003504783539968038,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0014893984032783934,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.002847554458689845,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0010536709957623706,
+    "female_verbs": 0.0021594067736401814,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0016264764754600153,
+    "female_verbs": 0.004416203782682399,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0008661583700285346,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0008247062436308,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0014297148769353042,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0011183480415656295,
+    "female_verbs": 0.001145099829714585,
+    "female_adjectives": 0.0033364792580434207
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004819640242624799,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0074817758252782845,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.001441612288691977,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0023684613148008604,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Male",
+    "male_verbs": 0.0015268988630512757,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.002911680417434739,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.003422467044107895,
+    "female_verbs": 0.0008738862425697847,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Male",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0012252377015993599,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0011765347005102795,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.001984364449410967,
+    "male_adjectives": 0.003699087524504854,
+    "female_verbs": 0.0,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0007039086251083671,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0013416363149639555,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0011831381053846058,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.001276115276120057,
+    "female_verbs": 0.0066540544515763115,
+    "female_adjectives": 0.0018982839777008942
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004631228992754914,
+    "female_adjectives": 0.002228866233780136
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.008080058994785463,
+    "female_adjectives": 0.0012773834434193774
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.004230807488490402,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "GPT 3.5",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0,
+    "female_verbs": 0.0019170780897180887,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "Gemini Pro",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0013849744537480922,
+    "female_verbs": 0.002839979417095088,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0013174616773812288,
+    "female_verbs": 0.0032854824243122704,
+    "female_adjectives": 0.0
+  },
+  {
+    "model": "LLama2 7B Uncensored",
+    "gender": "Female",
+    "male_verbs": 0.0,
+    "male_adjectives": 0.0011966130277645366,
+    "female_verbs": 0.0012252377015993599,
+    "female_adjectives": 0.0
+  }
+]

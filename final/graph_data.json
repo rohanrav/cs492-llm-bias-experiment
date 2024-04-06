@@ -1,0 +1,866 @@
+[
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.14287373737373735,
+    "polarity": 0.14287373737373735,
+    "subjectivity": 0.47091469641469647,
+    "avg_response_length": 200
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.08921222810111698,
+    "polarity": 0.08921222810111698,
+    "subjectivity": 0.4304040609596164,
+    "avg_response_length": 286
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.09206349206349204,
+    "polarity": 0.09206349206349204,
+    "subjectivity": 0.4376231649487465,
+    "avg_response_length": 455
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.1853747559629912,
+    "polarity": 0.1853747559629912,
+    "subjectivity": 0.473971453383218,
+    "avg_response_length": 196
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.2515643447461629,
+    "polarity": 0.2515643447461629,
+    "subjectivity": 0.7166765053128689,
+    "avg_response_length": 229
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.25431885822510825,
+    "polarity": 0.25431885822510825,
+    "subjectivity": 0.5729023580586081,
+    "avg_response_length": 349
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.16575276575276576,
+    "polarity": 0.16575276575276576,
+    "subjectivity": 0.6077815188926301,
+    "avg_response_length": 571
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.02679063360881543,
+    "polarity": 0.02679063360881543,
+    "subjectivity": 0.5682703659976386,
+    "avg_response_length": 201
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.1388935437322534,
+    "polarity": 0.1388935437322534,
+    "subjectivity": 0.4863543266769073,
+    "avg_response_length": 242
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.18166824494949496,
+    "polarity": 0.18166824494949496,
+    "subjectivity": 0.562271148989899,
+    "avg_response_length": 310
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.09410063841882026,
+    "polarity": 0.09410063841882026,
+    "subjectivity": 0.40022082294809563,
+    "avg_response_length": 439
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.19738292011019284,
+    "polarity": 0.19738292011019284,
+    "subjectivity": 0.3840220385674931,
+    "avg_response_length": 145
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.1021173271173271,
+    "polarity": 0.1021173271173271,
+    "subjectivity": 0.4243649512880282,
+    "avg_response_length": 220
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.09013815402704292,
+    "polarity": 0.09013815402704292,
+    "subjectivity": 0.3672082033193144,
+    "avg_response_length": 265
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.12159371492704826,
+    "polarity": 0.12159371492704826,
+    "subjectivity": 0.4171198554531888,
+    "avg_response_length": 457
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.23842592592592593,
+    "polarity": 0.23842592592592593,
+    "subjectivity": 0.46844729344729336,
+    "avg_response_length": 165
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.26303258145363406,
+    "polarity": 0.26303258145363406,
+    "subjectivity": 0.62593984962406,
+    "avg_response_length": 207
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.3095238095238096,
+    "polarity": 0.3095238095238096,
+    "subjectivity": 0.4961800104657247,
+    "avg_response_length": 241
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.1406448202959831,
+    "polarity": 0.1406448202959831,
+    "subjectivity": 0.5837186715093692,
+    "avg_response_length": 426
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": -0.003409090909090913,
+    "polarity": -0.003409090909090913,
+    "subjectivity": 0.6127206127206128,
+    "avg_response_length": 242
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.06430481283422461,
+    "polarity": 0.06430481283422461,
+    "subjectivity": 0.4338117764588352,
+    "avg_response_length": 275
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.11208513708513705,
+    "polarity": 0.11208513708513705,
+    "subjectivity": 0.488769068233354,
+    "avg_response_length": 288
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.12723009313918407,
+    "polarity": 0.12723009313918407,
+    "subjectivity": 0.5069436245572609,
+    "avg_response_length": 459
+  },
+  {
+    "race": "Non-Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.21870629370629371,
+    "polarity": 0.21870629370629371,
+    "subjectivity": 0.5113469863469864,
+    "avg_response_length": 182
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.21846764346764347,
+    "polarity": 0.21846764346764347,
+    "subjectivity": 0.555064806987884,
+    "avg_response_length": 229
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.14941893424036282,
+    "polarity": 0.14941893424036282,
+    "subjectivity": 0.42161063143205996,
+    "avg_response_length": 311
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.12943722943722946,
+    "polarity": 0.12943722943722946,
+    "subjectivity": 0.4086811562421319,
+    "avg_response_length": 405
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.35085470085470083,
+    "polarity": 0.35085470085470083,
+    "subjectivity": 0.5418803418803418,
+    "avg_response_length": 156
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.05801638837353123,
+    "polarity": 0.05801638837353123,
+    "subjectivity": 0.6130102040816325,
+    "avg_response_length": 257
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.19573986619441164,
+    "polarity": 0.19573986619441164,
+    "subjectivity": 0.4310773401682492,
+    "avg_response_length": 319
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.13671446608946608,
+    "polarity": 0.13671446608946608,
+    "subjectivity": 0.5118806887556888,
+    "avg_response_length": 444
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.058413325804630156,
+    "polarity": 0.058413325804630156,
+    "subjectivity": 0.5432936628588803,
+    "avg_response_length": 228
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.06401799954431533,
+    "polarity": 0.06401799954431533,
+    "subjectivity": 0.4663726624252939,
+    "avg_response_length": 305
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.15731313131313132,
+    "polarity": 0.15731313131313132,
+    "subjectivity": 0.5482626262626263,
+    "avg_response_length": 344
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.05307698837110602,
+    "polarity": 0.05307698837110602,
+    "subjectivity": 0.4391743060860708,
+    "avg_response_length": 325
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.12766830870279144,
+    "polarity": 0.12766830870279144,
+    "subjectivity": 0.5178434592227695,
+    "avg_response_length": 233
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.15079365079365076,
+    "polarity": 0.15079365079365076,
+    "subjectivity": 0.46417233560090704,
+    "avg_response_length": 186
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.17576960076960077,
+    "polarity": 0.17576960076960077,
+    "subjectivity": 0.42474377474377467,
+    "avg_response_length": 311
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.08494152046783625,
+    "polarity": 0.08494152046783625,
+    "subjectivity": 0.4476069982648931,
+    "avg_response_length": 332
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.1753487253487253,
+    "polarity": 0.1753487253487253,
+    "subjectivity": 0.5143063285920428,
+    "avg_response_length": 206
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.08843402973837755,
+    "polarity": 0.08843402973837755,
+    "subjectivity": 0.6678053830227743,
+    "avg_response_length": 282
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.04795048701298702,
+    "polarity": 0.04795048701298702,
+    "subjectivity": 0.48780438311688307,
+    "avg_response_length": 267
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.08938492063492064,
+    "polarity": 0.08938492063492064,
+    "subjectivity": 0.5399623524623524,
+    "avg_response_length": 455
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": -0.027651515151515163,
+    "polarity": -0.027651515151515163,
+    "subjectivity": 0.5301497113997115,
+    "avg_response_length": 193
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.12501587301587302,
+    "polarity": 0.12501587301587302,
+    "subjectivity": 0.4997380952380952,
+    "avg_response_length": 251
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.1004489337822671,
+    "polarity": 0.1004489337822671,
+    "subjectivity": 0.5138397867564535,
+    "avg_response_length": 334
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.12799943883277215,
+    "polarity": 0.12799943883277215,
+    "subjectivity": 0.5492178192178193,
+    "avg_response_length": 469
+  },
+  {
+    "race": "Hispanic White",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.1405723905723906,
+    "polarity": 0.1405723905723906,
+    "subjectivity": 0.4341750841750841,
+    "avg_response_length": 206
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.15716594516594515,
+    "polarity": 0.15716594516594515,
+    "subjectivity": 0.5245228105228105,
+    "avg_response_length": 218
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.09288724685276409,
+    "polarity": 0.09288724685276409,
+    "subjectivity": 0.3804233505957643,
+    "avg_response_length": 337
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.16653636114843012,
+    "polarity": 0.16653636114843012,
+    "subjectivity": 0.5068855474027888,
+    "avg_response_length": 492
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.09856100689434022,
+    "polarity": 0.09856100689434022,
+    "subjectivity": 0.4580774164107497,
+    "avg_response_length": 223
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.1823260073260073,
+    "polarity": 0.1823260073260073,
+    "subjectivity": 0.6465506715506714,
+    "avg_response_length": 242
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.2863095238095238,
+    "polarity": 0.2863095238095238,
+    "subjectivity": 0.5420238095238096,
+    "avg_response_length": 369
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.2470618034447822,
+    "polarity": 0.2470618034447822,
+    "subjectivity": 0.6690041046424026,
+    "avg_response_length": 533
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": -0.0859848484848485,
+    "polarity": -0.0859848484848485,
+    "subjectivity": 0.5567599067599067,
+    "avg_response_length": 192
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.1997685185185185,
+    "polarity": 0.1997685185185185,
+    "subjectivity": 0.4480268959435626,
+    "avg_response_length": 271
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.130546202768425,
+    "polarity": 0.130546202768425,
+    "subjectivity": 0.3365814226925338,
+    "avg_response_length": 329
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.05850415923945335,
+    "polarity": 0.05850415923945335,
+    "subjectivity": 0.49155525846702314,
+    "avg_response_length": 469
+  },
+  {
+    "race": "African",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.33365800865800865,
+    "polarity": 0.33365800865800865,
+    "subjectivity": 0.4796536796536797,
+    "avg_response_length": 155
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.22590062111801243,
+    "polarity": 0.22590062111801243,
+    "subjectivity": 0.5772739820565908,
+    "avg_response_length": 217
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.10675065675065674,
+    "polarity": 0.10675065675065674,
+    "subjectivity": 0.36244339705878165,
+    "avg_response_length": 371
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.1377329192546584,
+    "polarity": 0.1377329192546584,
+    "subjectivity": 0.511989701120136,
+    "avg_response_length": 527
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.23407407407407407,
+    "polarity": 0.23407407407407407,
+    "subjectivity": 0.3938542938542939,
+    "avg_response_length": 168
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.14825396825396825,
+    "polarity": 0.14825396825396825,
+    "subjectivity": 0.661058201058201,
+    "avg_response_length": 265
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.14326298701298704,
+    "polarity": 0.14326298701298704,
+    "subjectivity": 0.4764640121782979,
+    "avg_response_length": 318
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.1482738095238095,
+    "polarity": 0.1482738095238095,
+    "subjectivity": 0.6776388888888889,
+    "avg_response_length": 488
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": -0.011363636363636371,
+    "polarity": -0.011363636363636371,
+    "subjectivity": 0.6125598086124401,
+    "avg_response_length": 224
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.03280971479500892,
+    "polarity": 0.03280971479500892,
+    "subjectivity": 0.37079195314489444,
+    "avg_response_length": 296
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.077756734006734,
+    "polarity": 0.077756734006734,
+    "subjectivity": 0.4083092833092834,
+    "avg_response_length": 285
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.15898730898730898,
+    "polarity": 0.15898730898730898,
+    "subjectivity": 0.518934768934769,
+    "avg_response_length": 452
+  },
+  {
+    "race": "African",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.15407925407925407,
+    "polarity": 0.15407925407925407,
+    "subjectivity": 0.4279137529137529,
+    "avg_response_length": 196
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.14388888888888887,
+    "polarity": 0.14388888888888887,
+    "subjectivity": 0.5397222222222222,
+    "avg_response_length": 252
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.12910678210678211,
+    "polarity": 0.12910678210678211,
+    "subjectivity": 0.4253554223554223,
+    "avg_response_length": 238
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.19094982078853046,
+    "polarity": 0.19094982078853046,
+    "subjectivity": 0.46228681712552677,
+    "avg_response_length": 346
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.22127739984882838,
+    "polarity": 0.22127739984882838,
+    "subjectivity": 0.4637537066108494,
+    "avg_response_length": 190
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.16853321575543795,
+    "polarity": 0.16853321575543795,
+    "subjectivity": 0.6885214579659024,
+    "avg_response_length": 270
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.17649219467401286,
+    "polarity": 0.17649219467401286,
+    "subjectivity": 0.45144956054046953,
+    "avg_response_length": 323
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.12853812853812857,
+    "polarity": 0.12853812853812857,
+    "subjectivity": 0.569718475968476,
+    "avg_response_length": 539
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.06922077922077921,
+    "polarity": 0.06922077922077921,
+    "subjectivity": 0.5783014208014208,
+    "avg_response_length": 232
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "GPT 3.5",
+    "sentiment": 0.06889301175015461,
+    "polarity": 0.06889301175015461,
+    "subjectivity": 0.42055206698063835,
+    "avg_response_length": 325
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "Gemini Pro",
+    "sentiment": 0.036915450804339674,
+    "polarity": 0.036915450804339674,
+    "subjectivity": 0.4500815028592805,
+    "avg_response_length": 294
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "LLama2 7B",
+    "sentiment": 0.14158795749704842,
+    "polarity": 0.14158795749704842,
+    "subjectivity": 0.49944001705365343,
+    "avg_response_length": 458
+  },
+  {
+    "race": "Asian",
+    "gender": "Male",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.2526515151515152,
+    "polarity": 0.2526515151515152,
+    "subjectivity": 0.353030303030303,
+    "avg_response_length": 151
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.0656084656084656,
+    "polarity": 0.0656084656084656,
+    "subjectivity": 0.47286470143613,
+    "avg_response_length": 211
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.1327075702075702,
+    "polarity": 0.1327075702075702,
+    "subjectivity": 0.407321311167465,
+    "avg_response_length": 263
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.10122739018087855,
+    "polarity": 0.10122739018087855,
+    "subjectivity": 0.453439390067297,
+    "avg_response_length": 466
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.2431623931623932,
+    "polarity": 0.2431623931623932,
+    "subjectivity": 0.6111111111111112,
+    "avg_response_length": 190
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": -0.030616110080395793,
+    "polarity": -0.030616110080395793,
+    "subjectivity": 0.7003053494124921,
+    "avg_response_length": 278
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.13591580832960143,
+    "polarity": 0.13591580832960143,
+    "subjectivity": 0.41924454855489324,
+    "avg_response_length": 317
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.17901908697363245,
+    "polarity": 0.17901908697363245,
+    "subjectivity": 0.5252954116590479,
+    "avg_response_length": 484
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.061447811447811446,
+    "polarity": 0.061447811447811446,
+    "subjectivity": 0.6093674843674843,
+    "avg_response_length": 212
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "GPT 3.5",
+    "sentiment": 0.055413205413205414,
+    "polarity": 0.055413205413205414,
+    "subjectivity": 0.4339595839595839,
+    "avg_response_length": 300
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "Gemini Pro",
+    "sentiment": 0.1600015304560759,
+    "polarity": 0.1600015304560759,
+    "subjectivity": 0.4305861646770738,
+    "avg_response_length": 390
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "LLama2 7B",
+    "sentiment": 0.11853730759980759,
+    "polarity": 0.11853730759980759,
+    "subjectivity": 0.5226017616642616,
+    "avg_response_length": 445
+  },
+  {
+    "race": "Asian",
+    "gender": "Female",
+    "model": "LLama2 7B Uncensored",
+    "sentiment": 0.2343700159489633,
+    "polarity": 0.2343700159489633,
+    "subjectivity": 0.4967304625199363,
+    "avg_response_length": 220
+  }
+]
