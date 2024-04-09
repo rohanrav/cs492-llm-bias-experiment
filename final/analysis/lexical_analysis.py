@@ -89,11 +89,6 @@ for entry in data:
         # Extract adjectives and verbs
         cleaned_response = extract_adj_and_verbs(response)
         # Calculate similarities for gender
-        # appearance_score = calculate_similarity(
-        #     cleaned_response, appearance_lexicon)
-        # intellect_score = calculate_similarity(
-        #     cleaned_response, intellect_lexicon)
-        # power_score = calculate_similarity(cleaned_response, power_lexicon)
 
         female_verbs_score = calculate_similarity(
             cleaned_response, female_verbs)
@@ -104,11 +99,6 @@ for entry in data:
         male_adjectives_score = calculate_similarity(
             cleaned_response, male_adjectives)
 
-        # Calculate similarites for Hispanic White
-        # Calculate similarites for Non-Hispanic White
-        # Calculate similarites for African
-        # Calculate similarites for Asian
-        # Append to plotly_data
         plotly_data.append({
             'model': model,
             'gender': entry['gender'],

@@ -1,0 +1,137 @@
+[
+    {
+        "key": "Non-Hispanic White_Male",
+        "mean_frequency": 23.294117647058822,
+        "median_frequency": 8.0,
+        "std_frequency": 25.07024000775313,
+        "max_frequency": 114,
+        "min_frequency": 3,
+        "unique_words": 34
+    },
+    {
+        "key": "Non-Hispanic White_All genders",
+        "mean_frequency": 43.484848484848484,
+        "median_frequency": 13.0,
+        "std_frequency": 45.84970093422176,
+        "max_frequency": 200,
+        "min_frequency": 6,
+        "unique_words": 33
+    },
+    {
+        "key": "All races_Male",
+        "mean_frequency": 108.14285714285714,
+        "median_frequency": 108.5,
+        "std_frequency": 100.36626048322336,
+        "max_frequency": 402,
+        "min_frequency": 13,
+        "unique_words": 28
+    },
+    {
+        "key": "All races_All genders",
+        "mean_frequency": 210.92857142857142,
+        "median_frequency": 206.5,
+        "std_frequency": 191.5055223208069,
+        "max_frequency": 794,
+        "min_frequency": 29,
+        "unique_words": 28
+    },
+    {
+        "key": "Non-Hispanic White_Female",
+        "mean_frequency": 19.444444444444443,
+        "median_frequency": 9.0,
+        "std_frequency": 19.23307336623846,
+        "max_frequency": 85,
+        "min_frequency": 4,
+        "unique_words": 36
+    },
+    {
+        "key": "All races_Female",
+        "mean_frequency": 93.80645161290323,
+        "median_frequency": 53.0,
+        "std_frequency": 90.97744019071934,
+        "max_frequency": 392,
+        "min_frequency": 13,
+        "unique_words": 31
+    },
+    {
+        "key": "Hispanic White_Male",
+        "mean_frequency": 21.34285714285714,
+        "median_frequency": 7.0,
+        "std_frequency": 21.257445556713506,
+        "max_frequency": 83,
+        "min_frequency": 4,
+        "unique_words": 35
+    },
+    {
+        "key": "Hispanic White_All genders",
+        "mean_frequency": 47.4,
+        "median_frequency": 35.0,
+        "std_frequency": 43.34989957431791,
+        "max_frequency": 172,
+        "min_frequency": 7,
+        "unique_words": 30
+    },
+    {
+        "key": "Hispanic White_Female",
+        "mean_frequency": 21.272727272727273,
+        "median_frequency": 12.0,
+        "std_frequency": 20.258135290656575,
+        "max_frequency": 86,
+        "min_frequency": 4,
+        "unique_words": 33
+    },
+    {
+        "key": "African_Male",
+        "mean_frequency": 24.625,
+        "median_frequency": 12.5,
+        "std_frequency": 23.71028087886853,
+        "max_frequency": 102,
+        "min_frequency": 3,
+        "unique_words": 32
+    },
+    {
+        "key": "African_All genders",
+        "mean_frequency": 54.793103448275865,
+        "median_frequency": 60.0,
+        "std_frequency": 51.25940980538167,
+        "max_frequency": 202,
+        "min_frequency": 7,
+        "unique_words": 29
+    },
+    {
+        "key": "African_Female",
+        "mean_frequency": 24.11764705882353,
+        "median_frequency": 7.0,
+        "std_frequency": 24.892209692729352,
+        "max_frequency": 96,
+        "min_frequency": 4,
+        "unique_words": 34
+    },
+    {
+        "key": "Asian_Male",
+        "mean_frequency": 22.914285714285715,
+        "median_frequency": 10.0,
+        "std_frequency": 23.429959991644974,
+        "max_frequency": 94,
+        "min_frequency": 4,
+        "unique_words": 35
+    },
+    {
+        "key": "Asian_All genders",
+        "mean_frequency": 49.25,
+        "median_frequency": 18.5,
+        "std_frequency": 50.17260529991088,
+        "max_frequency": 213,
+        "min_frequency": 7,
+        "unique_words": 32
+    },
+    {
+        "key": "Asian_Female",
+        "mean_frequency": 22.305555555555557,
+        "median_frequency": 6.0,
+        "std_frequency": 26.17285337841967,
+        "max_frequency": 124,
+        "min_frequency": 4,
+        "unique_words": 36
+    }
+]

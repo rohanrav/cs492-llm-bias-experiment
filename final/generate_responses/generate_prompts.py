@@ -45,7 +45,7 @@ gemini_model = genai.GenerativeModel(model_name="gemini-1.0-pro",
                                      generation_config=gemini_generation_config,
                                      safety_settings=gemini_safety_settings)
 
-llama2_client = Client("huggingface-projects/llama-2-7b-chat")
+# llama2_client = Client("huggingface-projects/llama-2-7b-chat")
 llama2_uncensored_client = Client(
     "https://mikeee-llama2-7b-chat-uncensored-ggml.hf.space/")
 
@@ -102,7 +102,7 @@ async def get_gpt_response(prompt):
             max_tokens=2048,
             top_p=1,
             frequency_penalty=0,
-            presence_penalty=0
+            presence_penalty=0,
         )
 
         return gpt_response.choices[0].message.content
