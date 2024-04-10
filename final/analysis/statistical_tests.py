@@ -56,7 +56,7 @@ for metric in metrics:
     t_stat, p_value = stats.ttest_ind(male_scores, female_scores)
     print(f'T-test for {metric}, P-value: {p_value}')
 
-
+# ----------------------------------------------------------------
 # Lexical analysis statistical tests
 
 lexical_df = pd.read_json('json/lexical_data.json')
@@ -73,6 +73,7 @@ for gender in genders:
             lexical_df[lexical_df['gender'] == gender][metric])
         print(f'Gender: {gender}, Metric: {metric}, P-value: {p_value}')
 
+
 # Check equal variance for each lexical metric across genders
 print("\nEqual Variance Tests:")
 for metric in lexical_metrics:
@@ -80,33 +81,6 @@ for metric in lexical_metrics:
     female_scores = lexical_df[lexical_df['gender'] == 'Female'][metric]
     stat, p_value = stats.levene(male_scores, female_scores)
     print(f'Metric: {metric}, P-value: {p_value}')
-
-# Conduct two-sample t-tests for each lexical metric
-print("\nTwo-Sample T-Tests for Gender:")
-for metric in lexical_metrics:
-    male_scores = lexical_df[lexical_df['gender'] == 'Male'][metric]
-    female_scores = lexical_df[lexical_df['gender'] == 'Female'][metric]
-    t_stat, p_value = stats.ttest_ind(male_scores, female_scores)
-    print(f'T-test for {metric}, P-value: {p_value}')
-
-# Conduct paired t-tests for male vs female verbs/adjectives within each gender
-print("\nPaired T-Tests Within Gender:")
-for gender in genders:
-    male_verbs_scores = lexical_df[lexical_df['gender']
-                                   == gender]['male_verbs']
-    female_verbs_scores = lexical_df[lexical_df['gender']
-                                     == gender]['female_verbs']
-    t_stat, p_value = stats.ttest_rel(male_verbs_scores, female_verbs_scores)
-    print(f'Paired T-test for verbs, Gender: {gender}, P-value: {p_value}')
-
-    male_adjectives_scores = lexical_df[lexical_df['gender']
-                                        == gender]['male_adjectives']
-    female_adjectives_scores = lexical_df[lexical_df['gender']
-                                          == gender]['female_adjectives']
-    t_stat, p_value = stats.ttest_rel(
-        male_adjectives_scores, female_adjectives_scores)
-    print(
-        f'Paired T-test for adjectives, Gender: {gender}, P-value: {p_value}')
 
 # Conduct Mann-Whitney U tests for each lexical metric since the data is not normally distributed
 print("\nMann-Whitney U Test for Gender:")
@@ -117,20 +91,13 @@ for metric in lexical_metrics:
     print(f'Mann-Whitney U test for {metric}, P-value: {p_value}')
 
 
-print("\nWilcoxon Signed-Rank Test Within Gender:")
+# Conduct Wilcoxon signed-rank tests to compare female verbs with other metrics within each gender
+print("\nWilcoxon Signed-Rank Test for Female Verbs Comparison Within Gender:")
 for gender in genders:
-    male_verbs_scores = lexical_df[lexical_df['gender']
-                                   == gender]['male_verbs']
     female_verbs_scores = lexical_df[lexical_df['gender']
                                      == gender]['female_verbs']
-    w_stat, p_value = wilcoxon(male_verbs_scores, female_verbs_scores)
-    print(f'Wilcoxon test for verbs, Gender: {gender}, P-value: {p_value}')
-
-    male_adjectives_scores = lexical_df[lexical_df['gender']
-                                        == gender]['male_adjectives']
-    female_adjectives_scores = lexical_df[lexical_df['gender']
-                                          == gender]['female_adjectives']
-    w_stat, p_value = wilcoxon(
-        male_adjectives_scores, female_adjectives_scores)
-    print(
-        f'Wilcoxon test for adjectives, Gender: {gender}, P-value: {p_value}')
+    for metric in ['male_verbs', 'male_adjectives', 'female_adjectives']:
+        other_scores = lexical_df[lexical_df['gender'] == gender][metric]
+        w_stat, p_value = wilcoxon(female_verbs_scores, other_scores)
+        print(
+            f'Comparison: Female Verbs vs {metric}, Gender: {gender}, P-value: {p_value}')
